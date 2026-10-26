@@ -113,3 +113,11 @@ function renderRecentSearches() {
   });
 }
 renderRecentSearches();
+// ---------- 7. Show today's date ----------
+const dateElement = document.getElementById("current-date");
+dateElement.textContent = new Date().toLocaleDateString("en-US", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric"
+});
