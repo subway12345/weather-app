@@ -25,4 +25,4 @@ Lagos, London, Tokyo, Abuja, Paris, Moscow, Miami
 - localStorage
 
 ## Live Demo
-[https://subway12345.github.io/weather-app/](https://subway12345.github.io/weather-app/)
+https://subway12345.github.io/weather-app/
