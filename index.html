@@ -7,11 +7,11 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="script.js" defer></script>
 </head>
-<body class="bg-sky-100 min-h-screen flex items-center justify-center p-4">
+<body class="bg-sky-100 min-h-screen flex items-center justify-center p-3 sm:p-6 lg:p-10">
 
-  <main class="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
+  <main class="w-full max-w-sm sm:max-w-md lg:max-w-lg bg-white rounded-2xl shadow-lg p-4 sm:p-6 lg:p-8">
 
-    <h1 class="text-2xl font-bold text-center text-sky-800">Weather App</h1>
+    <h1 class="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-sky-800">Weather App</h1>
     <p id="current-date" class="text-center text-gray-500 mt-1"></p>
 
     <form id="search-form" class="flex gap-2 mt-6">
@@ -28,10 +28,10 @@
     <section id="weather-card" class="hidden mt-6 text-center">
       <p id="weather-icon" class="text-6xl"></p>
       <h2 id="city-name" class="text-xl font-semibold mt-2"></h2>
-      <p id="temperature" class="text-4xl font-bold mt-1"></p>
+      <p id="temperature" class="text-3xl sm:text-4xl lg:text-5xl font-bold mt-1"></p></p>
       <p id="condition" class="text-gray-600 mt-1"></p>
 
-      <div class="grid grid-cols-2 gap-4 mt-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-6">
         <div class="bg-sky-50 rounded-lg p-3">
           <p class="text-sm text-gray-500">Humidity</p>
           <p id="humidity" class="font-semibold"></p>
